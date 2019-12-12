@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baskervville&display=swap');
+*{
+  outline:none;
+}
+  body{
+    width:99%;
+    padding:0;
+    margin: 0 auto;
+  font-family: 'Baskervville', serif;
+  }
+h1 {
+  color:rgb(255,105,180);
+    font-family: 'Gupter', serif;
+
+   text-align: center;
+}
+h3{
+  color:rgb(255,105,180);
+    font-family: 'Gupter', serif;
+
+}
+ h2, h4
+ {color:rgb(255,182,193);
+   font-family: 'Gupter', serif;
+
+  padding: 0 1% ;
+}
+
+p{
+  line-height: 130%;
+  padding: 2% 1%;
+  font-family: 'Baskervville', serif;
+}
+
+li,a{
+ font-family: 'Baskervville', serif;
+}
+
+  #container{
+    width: 98%;
+    margin:0 auto;
+    background-color:rgba(225,104,180,0.1);
+  }
+
+#header{
+     height: 700px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(" pregcare.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baskervville', serif;
+}
+.logo{
+  width: 7%;
+  height: auto;
+}
+.nav-a {
+  width:70%;
+  margin:0 auto;
+  background-color:#fff;
+  height:70px;
+}
+.nav-a ul{
+width:50%;
+float: right;
+}
+
+.nav-a li{
+    display:inline-block;
+    width: 30%;
+    padding-right:-5%;
+    list-style-image: none;
+
+
+}
+.nav-a li a{
+    font-size:150%;
+    font-family: 'Baskervville', serif;
+    color:#000;
+    text-decoration: none;
+    margin-right:-5%;
+    padding: 5%;
+}
+
+.nav-a li a:hover{
+  border: 1px solid pink;
+  border-radius: 2em;
+  background-color: rgba(255,105,180,0.8);
+
+}
+
+.nav-b {
+  width:70%;
+  margin:0 auto;
+  background-color:pink;
+  height:70px;
+}
+.nav-b ul{
+width:50%;
+float: right;
+}
+
+.nav-b li{
+    display:inline-block;
+    width: 30%;
+    padding-right:-5%;
+    list-style-image: none;
+
+
+}
+.nav-b li a{
+    font-size:150%;
+    font-family: 'Baskervville', serif;
+    color:#000;
+    text-decoration: none;
+    margin-right:-5%;
+    padding: 5%;
+}
+
+.nav-b li a:hover{
+  border-bottom: 3px solid #fff;
+}
+
+#bold{
+  color: rgba(245, 245, 220, 1);
+    text-align: center;
+    margin: 10% auto;
+}
+#bold h1{
+font-size: 500%;
+color:rgba(245, 245, 220, 1);
+font-family: 'Gupter', serif;
+}
+#bold p{
+  font-size: 200%;
+
+}
+
+#parent{
+  text-align: center;
+    width:70%;
+    margin:-5% auto;
+    padding: 5% 0 0 0;
+    height: 800px;
+    background-color:#fff;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+
+.gallery{
+  text-align: center;
+    width:30%;
+    margin:2% 1.6%;
+    flex: 1;
+  }
+
+  .gallery img{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+.gallery h4{
+  text-align: center;
+  font-family: 'Gupter', serif;
+  text-transform: uppercase;.
+  color: #000;
+}
+
+.gallery button{
+  font-size: 110%;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 3%;
+  background-color: pink;
+
+}
+.gallery button a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Baskervville', serif;
+}
+
+#img1 {
+ position: absolute;
+ top: 55%;
+ right: 34%;
+}
+
+#img2 {
+  position: absolute;
+  top: 55%;
+
+}
+
+
+#description{
+  margin-top: -5%;
+    clear: both;
+    width: 100%;
+    height:300px;
+
+}
+#description p{
+    width:90%;
+    font-size: 120%;
+    line-height: 200%;
+    padding:5%;
+    margin-top: 5%;
+    text-align: center;
+    clear: both;
+}
+.page-list li{
+  background-image:url("list.png");
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center left;
+  padding:1% 0 1% 2%;
+  list-style-type: none;
+}
+
+.img-head{
+  display: block;
+  width: 100%;
+  height:auto;
+  margin-top:  ;
+}
+
+.drug-list li{
+list-style: none;
+display: inline-block;
+font-size: 120%;
+padding: 3%;
+}
+
+.drug-list li a{
+  text-decoration:none;
+
+  color:rgb(255,182,193);
+  border-bottom: 1px solid  rgb(255,182,193);
+
+}
+
+.drug-list li a:hover{
+  color: pink;
+
+  border: none;
+   }
+
+footer{
+  margin-top:5%;
+  padding-top: 5%;
+  height:200px;
+  text-align: center;
+  background-color:rgba(255, 240,245, 0.5) ;
+
+}
+
+.footer-div{
+  width:33.3%;
+  box-sizing: border-box;
+  float: left;
+}
+.footer-form{
+  width:30%;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.footer-form input{
+  width: 70%;
+  height: 15%;
+  background-color: #fff;
+  padding: 1%;
+  
+}
+
+.footer-form button{
+width:27%;
+height: 15%;
+font-family: 'Gupter', serif;
+
+padding: 1%;
+margin-left: -1%;
+}
+
+.footer-form button:hover{
+  background-color: green;
+}
+.footer-form h3{
+  font-family: 'Gupter', serif;
+  width: 90%;
+  text-transform: uppercase;
+  display:block;
+  padding-bottom: 5%;
+  margin: 0 auto;}
+
+.footer-div h3{
+  font-family: 'Gupter', serif;
+  width: 90%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  display:block;
+  padding-bottom: 5%;
+
+}
+.footer-div ul{
+  width:100%;
+  margin: 0 auto;
+  margin-left: -23%;
+  text-align: center;
+}
+.footer-div li{
+  list-style-type: none;
+  margin-left: 0;
+}
+
+
+.footer-div a{
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #2e8b57;
+}
+.footer-div a:hover {
+  text-decoration: underline;
+}
+
+.footer-div a:active{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
