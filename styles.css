@@ -476,6 +476,7 @@ width:;
  margin: 0;
  padding:0;
  width: 100%;
+   height:200px;
  background-color:#fff;
  text-align: right;
  display: none;
@@ -492,7 +493,7 @@ width:;
   display:block;
   height: 8%;
   width:10%;
-  padding: 8% 3%;
+  padding: 13% 3%;
   text-align: right;
 }
  .nav-a li a:active{
@@ -518,6 +519,7 @@ width:;
    margin: 0;
    padding:0;
    width: 100%;
+     height:200px;
    background-color:#pink;
    text-align: right;
    display: none;
@@ -534,7 +536,7 @@ width:;
     display:block;
     height: 8%;
     width:10%;
-    padding: 3% 3%;
+    padding: 13% 3%;
     text-align: right;
   }
    .nav-b li a:hover{
